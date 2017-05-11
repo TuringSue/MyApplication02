@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="欢迎来到英雄联盟"
+        android:id="@+id/textView"
+        android:layout_weight="0.21" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="on"
+            android:id="@+id/a"
+            android:layout_weight="0.06" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="at"
+            android:id="@+id/b"
+            android:layout_weight="0.06" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="of"
+            android:id="@+id/c"
+            android:layout_weight="0.06" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="in"
+            android:id="@+id/d"
+            android:layout_weight="0.06" />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:id="@+id/sure"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:id="@+id/cancel"
+        android:layout_weight="0.06" />
+</LinearLayout>
